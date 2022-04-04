@@ -1,0 +1,29 @@
+.menu{
+   background-color:rgba(49, 42, 42, 0.288);
+    margin: 0;
+    list-style: none;
+    }
+.menu li{
+   text-decoration: none;
+   color:white
+     
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+    background-color: blanchedalmond;
+  }
+.box1 .img{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aquamarine;
+}
+.box2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+}

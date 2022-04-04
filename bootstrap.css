@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@500&display=swap');
+.display-4{
+    font-family: 'Grenze Gotisch', cursive;
+}
+body{
+    background: rgb(196, 152, 236);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgb(241, 233, 248)rgb(241, 233, 248), rgb(196, 152, 236));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgb(241, 233, 248), rgb(196, 152, 236)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.site-header{
+background-color: rgb(220, 198, 241);
+} 
+.py-2{
+    color: white;
+    }
+    .py-2:hover{
+        color:blueviolet;
+        }
+        .btn{
+            color: blueviolet;
+            border-color: blueviolet;
+         }
+         .btn:hover {
+            background-color: rgb(212, 182, 240);
+color:white;
+         }
+.diamante{
+    margin-top: 0%;
+    margin-left: 0%;
+margin-right: 100%;
+width: 30px;
+height: 30px;
+}
+.carousel-item{
+    width: 950px;
+    height: 450px;
+margin-left: auto;
+margin-right: auto;
+}
+.card-body{
+    text-align: center;
+}
+.jumbotron{
+    width: 950px;
+    height: 450px;
+    margin-left: auto;
+margin-right: auto;
+}
+.form-inline{
+    margin-top: 0%;
+    margin-left: 79%;
+}
+.list-group{
+    margin-right: 82%;
+    margin-left: 0%;
+}
